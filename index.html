@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Karol</title>
+
+    <!-- estilos-->
+    <link rel="stylesheet" href="css/style.css"> 
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/new.png" type="image/png">
+</head>
+
+<body>
+    <header class="conteiner-cabecalho">
+        <a href="index.html">
+            <img src="assets/new1.png" alt="Logo principal" title="Minha logo">
+        </a>
+        <h3>KAROLINDA <span class="span-novo"> fan club </span> </h3>
+    </header>
+
+    <nav class="conteiner-navegacao">
+        <a href="index.html"> Quem sou? </a>
+        <a href="Oqfaco.html"> O que faço? </a>
+        <a href="contatos.html"> Contatos </a>
+    </nav>
+
+    <section class="conteiner-quem-somos">
+        <div class="container-div-estruturas">
+            
+            <div class="box-wrapper">
+                <h2>EU</h2>
+                <div class="container-fotos-karol">
+                    <button class="btn btn-left" onclick="prevImage(this)">◀</button>
+                    <div class="image-container">
+                        <img class="displayedImage" src="assets/eu1.png" alt="Imagem" data-index="0">
+                    </div>
+                    <button class="btn btn-right" onclick="nextImage(this)">▶</button>
+                </div>
+            </div>
+    
+            <div class="box-wrapper">
+                <h2>AMIGOS</h2>
+                <div class="container-fotos-karol">
+                    <button class="btn btn-left" onclick="prevImage(this)">◀</button>
+                    <div class="image-container">
+                        <img class="displayedImage" src="assets/amigos1.png" alt="Imagem" data-index="0">
+                    </div>
+                    <button class="btn btn-right" onclick="nextImage(this)">▶</button>
+                </div>
+            </div>
+    
+            <div class="box-wrapper">
+                <h2>MOMENTOS</h2>
+                <div class="container-fotos-karol">
+                    <button class="btn btn-left" onclick="prevImage(this)">◀</button>
+                    <div class="image-container">
+                        <img class="displayedImage" src="assets/moments1.png" alt="Imagem" data-index="0">
+                    </div>
+                    <button class="btn btn-right" onclick="nextImage(this)">▶</button>
+                </div>
+            </div>
+    
+            <div class="box-wrapper">
+                <h2>VIAGENS</h2>
+                <div class="container-fotos-karol">
+                    <button class="btn btn-left" onclick="prevImage(this)">◀</button>
+                    <div class="image-container">
+                        <img class="displayedImage" src="assets/viagens2.png" alt="Imagem" data-index="0">
+                    </div>
+                    <button class="btn btn-right" onclick="nextImage(this)">▶</button>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    <script src="functions.js"></script>
+    
+
+    <section class="container-servicos-contatos">
+        <div class="content-wrapper">
+            <div>
+                <p>Hello ! Sou Ana Karolina, sou muito dramática e doida e irei fazer tudo que meu lindo Harry mandar eu fazer! Já que ele manda em mim e eu gosto de obedece-lo!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus et nemo omnis exercitationem sapiente laborum quam harum modi esse quibusdam nobis veniam eum, non adipisci eius vitae, ex odio temporibus?
+                </p>
+            </div>
+            
+            <div class="container-servicos-contatos botoes">
+                <h1>Mais informações</h1>
+                <a href="Oqfaco.html">MY LIFE</a>
+                <a href="contatos.html">Contatos</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-section-final">
+        <div class="container-div-estruturas">
+            <div class="box-wrapper">
+                <h2> MEU LINDO </h2>
+                <div class="container-fotos-juntos">  
+                    <div class="image-container">
+                        <img id="displayedImage" src="assets/ft1.png" alt="Imagem">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-div-estruturas">
+            <div class="box-wrapper">   
+                <h2 class="text-color">MEU PERFEITO</h2>  
+                <div class="container-fotos-juntos">  
+                    <div class="image-container">
+                        <img id="displayedImage" src="assets/ft2.png" alt="Imagem">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer> Ana Karol &copy; | &reg; Reserved </footer>
+</body>
+
+</html>
